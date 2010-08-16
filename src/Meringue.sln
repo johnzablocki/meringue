@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeringueWeb", "webs\MeringueWeb\MeringueWeb.csproj", "{F8821A25-3DB2-40A1-8D8B-2F126FACF433}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meringue.Core", "components\Meringue.Core\Meringue.Core.csproj", "{E190DC43-812F-46CC-AA68-D81C256659F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meringue.Webs", "components\Meringue.Webs\Meringue.Webs.csproj", "{9150166A-E43B-47B9-B6A3-B24E2205C0A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meringue.Models", "components\Meringue.Models\Meringue.Models.csproj", "{2E007FC5-D8C1-4824-82BD-28576965F92F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meringue.Models.Tests", "tests\Meringue.Models.Tests\Meringue.Models.Tests.csproj", "{4C76938F-39E1-4367-9B83-082627BA73F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meringue.Webs.Tests", "tests\Meringue.Webs.Tests\Meringue.Webs.Tests.csproj", "{5A727E2B-65D1-435E-BA32-F9B48642388D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meringue.Core.Tests", "tests\Meringue.Core.Tests\Meringue.Core.Tests.csproj", "{5D4033D2-946F-4287-A619-C383ED78DCD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8821A25-3DB2-40A1-8D8B-2F126FACF433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8821A25-3DB2-40A1-8D8B-2F126FACF433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8821A25-3DB2-40A1-8D8B-2F126FACF433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8821A25-3DB2-40A1-8D8B-2F126FACF433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E190DC43-812F-46CC-AA68-D81C256659F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E190DC43-812F-46CC-AA68-D81C256659F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E190DC43-812F-46CC-AA68-D81C256659F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E190DC43-812F-46CC-AA68-D81C256659F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9150166A-E43B-47B9-B6A3-B24E2205C0A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9150166A-E43B-47B9-B6A3-B24E2205C0A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9150166A-E43B-47B9-B6A3-B24E2205C0A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9150166A-E43B-47B9-B6A3-B24E2205C0A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E007FC5-D8C1-4824-82BD-28576965F92F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E007FC5-D8C1-4824-82BD-28576965F92F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E007FC5-D8C1-4824-82BD-28576965F92F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E007FC5-D8C1-4824-82BD-28576965F92F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C76938F-39E1-4367-9B83-082627BA73F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C76938F-39E1-4367-9B83-082627BA73F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C76938F-39E1-4367-9B83-082627BA73F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C76938F-39E1-4367-9B83-082627BA73F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A727E2B-65D1-435E-BA32-F9B48642388D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A727E2B-65D1-435E-BA32-F9B48642388D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A727E2B-65D1-435E-BA32-F9B48642388D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A727E2B-65D1-435E-BA32-F9B48642388D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D4033D2-946F-4287-A619-C383ED78DCD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D4033D2-946F-4287-A619-C383ED78DCD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D4033D2-946F-4287-A619-C383ED78DCD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D4033D2-946F-4287-A619-C383ED78DCD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
